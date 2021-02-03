@@ -13,7 +13,7 @@ DOI: (coming soon).
 
 Code description:
 This code contains lumped parameter model capable of simulating whole body blood flow with detailed kidney blood flow, dialysis, and baroreflex control mechanism. The model
-works as a system of stiff ODEs that is solved by MATLAB solver ode15s.
+works as a system of stiff ODEs that is solved using MATLAB (2019b onwards) solver ode15s.
 
 Inputs: The model itself is dependent on the parameters in p() which contains the many physical constants and physiological parameters of the model, as well as the initial
 conditions of the state variables in y0(). These are not standard inputs, as they are hard coded, but can be modified to fit the needs of the user. Other capabilities
@@ -21,7 +21,7 @@ include modifying the parameters over time using the modParam function. This fea
 sodium profile for the dialyzer unit.
 
 Outputs: This code prints all outputs to a data file named output*.dat with * as the integer n. The output is arranged as follows: column 1 is time, columns 2-45 are the
-state variables y() in order, columns 46 to 192 are the model parameters p() in order starting from p(2) (as p(1) is time)
+state variables y() in order, columns 46 to 192 are the model parameters p() in order starting from p(2) (as p(1) is time).
 
 References.
 
