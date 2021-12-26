@@ -1,4 +1,4 @@
-# pm30D_dialysis_FIP2021
+# pm3 Lumped Parameter Human Circulation Code 2021
 License:
 GNU GENERAL PUBLIC LICENSE Version 3
 
