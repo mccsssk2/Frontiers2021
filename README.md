@@ -4,12 +4,9 @@ GNU GENERAL PUBLIC LICENSE Version 3
 
 2nd February 2021.
 
-Authors:
-Jermiah J. Joseph, Timothy J. Hunter, Clara Sun, Daniel Goldman, Sanjay R. Kharche, Christopher W. McIntyre.
+Please cite this reference: Joseph, J.J.; Hunter, T.J.; Sun, C.; Goldman, D.; Kharche, S.R.; McIntyre, C.W. Using a Human Circulation Mathematical Model to Simulate the Effects of Hemodialysis and Therapeutic Hypothermia. Appl. Sci. 2022, 12, 307. https://doi.org/10.3390/app12010307
 
-This code is associated with preprint entitled: " A 0D Model of the Human Circulation Assessing the Effects of Hemodialysis and Therapeutic Hypothermia on Blood Flow."
-
-DOI: (coming soon).
+DOI: ( https://doi.org/10.3390/app12010307).
 
 Code description:
 This code contains lumped parameter model capable of simulating whole body blood flow with detailed kidney blood flow, dialysis, and baroreflex control mechanism. The model
