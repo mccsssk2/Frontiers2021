@@ -1,8 +1,8 @@
 
 function pm30D_dialysis_FIP2021
 % Driver function for the pm3 0D dialysis model including whole body lumped parameter model
-% blood flow (Heldt), dialyzer unit (Ursino), Baroreflex (Lin), Detailed Kidney (PM3 developed)
-% Copyright (C) 2021  Timothy Hunter
+% blood flow (Heldt), dialyzer unit (Ursino), Baroreflex (Lin), detailed kidney (PM3 developed)
+% Copyright (C) 2021. PM3 Lab (Dr SR Kharche).
 %
 % This program is free software: you can redistribute it and/or modify
 % it under the terms of the GNU General Public License as published by
