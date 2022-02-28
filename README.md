@@ -18,7 +18,7 @@ include modifying the parameters over time using the modParam function. This fea
 sodium profile for the dialyzer unit.
 
 Outputs: This code prints all outputs to a data file named output*.dat with * as the integer n. The output is arranged as follows: column 1 is time, columns 2-45 are the
-state variables y() in order, columns 46 to 192 are the model parameters p() in order starting from p(2) (as p(1) is time).
+state variables y() in order, columns 46 to 192 are the model parameters p() in order starting from p(2) and as p(1) is time. All paramters are passed to the RHS at each time step, thus allowing control over their temporal variations.
 
 References.
 
